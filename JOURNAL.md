@@ -6,7 +6,7 @@
 > [!NOTE]
 > This devlog is mirrored from [Half Life](https://halflife.hackclub.com) ([open the project](https://halflife.hackclub.com/projects/r2afk5u3onpfonqks9n7djku)). Editing it here will not change the platform's copy, and the next sync overwrites this file.
 
-> a stm32 devboard
+> a stm32 devboard made to learn more about stm and get into the ecosystem while learning to implement it in other systems
 
 | Week | Tier | Hours logged | Entries |
 | --- | --- | --- | --- |
