@@ -1928,7 +1928,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "MCU_ST_STM32G4:STM32G431C8Tx"
+		(symbol "MCU_ST_STM32G4:STM32G431CBTx"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1945,7 +1945,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "STM32G431C8Tx"
+			(property "Value" "STM32G431CBTx"
 				(at 7.62 39.37 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1968,7 +1968,7 @@
 					(justify right)
 				)
 			)
-			(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32g431c8.pdf"
+			(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32g431cb.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1979,7 +1979,7 @@
 					)
 				)
 			)
-			(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 64KB flash, 32KB RAM, 170 MHz, 1.71-3.6V, 38 GPIO, LQFP48"
+			(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 128KB flash, 32KB RAM, 170 MHz, 1.71-3.6V, 38 GPIO, LQFP48"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2012,7 +2012,7 @@
 					)
 				)
 			)
-			(symbol "STM32G431C8Tx_0_1"
+			(symbol "STM32G431CBTx_0_1"
 				(rectangle
 					(start -15.24 -38.1)
 					(end 15.24 38.1)
@@ -2025,7 +2025,7 @@
 					)
 				)
 			)
-			(symbol "STM32G431C8Tx_1_1"
+			(symbol "STM32G431CBTx_1_1"
 				(pin power_in line
 					(at -5.08 40.64 270)
 					(length 2.54)
@@ -8001,6 +8001,227 @@
 		)
 	)
 	(symbol
+		(lib_id "MCU_ST_STM32G4:STM32G431CBTx")
+		(at 152.4 99.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b234210-c491-433b-a1b7-b40eb74a0352")
+		(property "Reference" "U4"
+			(at 157.0833 139.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "STM32G431CBTx"
+			(at 157.0833 142.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_QFP:LQFP-48_7x7mm_P0.5mm"
+			(at 137.16 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32g431cb.pdf"
+			(at 152.4 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 128KB flash, 32KB RAM, 170 MHz, 1.71-3.6V, 38 GPIO, LQFP48"
+			(at 152.4 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "543a59c8-521d-457f-a474-535fcd6b44c2")
+		)
+		(pin "7"
+			(uuid "cb5d7580-64a5-4d5d-845a-46c36f903988")
+		)
+		(pin "5"
+			(uuid "a43fa190-3398-41b3-9cda-d9ad818a130a")
+		)
+		(pin "6"
+			(uuid "4530a4d0-89b9-4c81-8991-084f3a8e4f55")
+		)
+		(pin "4"
+			(uuid "0385b447-312c-4ad7-bf00-3f8aebad07d4")
+		)
+		(pin "3"
+			(uuid "656c8b76-1beb-4489-a366-3ef0c4c48cf7")
+		)
+		(pin "1"
+			(uuid "8c238685-cc8d-4be2-9d16-02f11f1f4389")
+		)
+		(pin "24"
+			(uuid "f1479991-9f79-4df7-b65f-1921bf7d7e53")
+		)
+		(pin "20"
+			(uuid "f994d66c-1178-48bf-9b39-99fc8d0b8c06")
+		)
+		(pin "34"
+			(uuid "50e99b58-a846-4ebf-91dc-95777c3fec3a")
+		)
+		(pin "18"
+			(uuid "c9778b78-1e50-48eb-a9c8-d5ef021c78e5")
+		)
+		(pin "15"
+			(uuid "4e03ef5b-c066-499e-a1ae-4e68628d2de2")
+		)
+		(pin "22"
+			(uuid "04d533ce-1c05-4f4c-b116-2b1f36b0d204")
+		)
+		(pin "36"
+			(uuid "b6afad83-fd14-43f2-a832-93d801e6db83")
+		)
+		(pin "25"
+			(uuid "670d37b5-238f-41b2-b80a-fe6df6990a8b")
+		)
+		(pin "39"
+			(uuid "dc077087-4578-40e0-a995-39ee6230bcea")
+		)
+		(pin "17"
+			(uuid "bc7a3218-3bda-437d-a058-7f9d8908e2ed")
+		)
+		(pin "29"
+			(uuid "cc315e48-b144-46f8-9d11-c2b37ff556d5")
+		)
+		(pin "37"
+			(uuid "70131c58-1209-45f9-9df1-065a7c47b1a8")
+		)
+		(pin "35"
+			(uuid "52b27ac4-0458-4008-a72e-7eb9369e80f2")
+		)
+		(pin "31"
+			(uuid "85f1412e-4f40-4c3f-a309-12b1b2b8288f")
+		)
+		(pin "13"
+			(uuid "a5184022-5cd4-422c-bc4a-833dd6eb6765")
+		)
+		(pin "14"
+			(uuid "31d53399-e5fd-455d-b006-e08be3d1b4a0")
+		)
+		(pin "38"
+			(uuid "330b8f69-cb54-4cee-9060-971a390255f9")
+		)
+		(pin "30"
+			(uuid "d35ca8c1-bbca-437e-8e6b-435d2c819962")
+		)
+		(pin "28"
+			(uuid "c6b19797-931a-4a30-b324-2e23f514b5e6")
+		)
+		(pin "32"
+			(uuid "3b1deed8-bf94-474a-9c07-eb460e8407c6")
+		)
+		(pin "16"
+			(uuid "f6fecd12-d112-40a6-8e2f-fdfd9c5d0e93")
+		)
+		(pin "19"
+			(uuid "5b8c1900-49af-475f-a156-0e83d1b6aceb")
+		)
+		(pin "9"
+			(uuid "7ace78b2-6075-4949-a5ce-a3230526ee3e")
+		)
+		(pin "23"
+			(uuid "ab8a09f7-2a80-48cc-9e9a-90ca6c364f9a")
+		)
+		(pin "8"
+			(uuid "6454c140-1423-4480-85aa-fa462330285f")
+		)
+		(pin "12"
+			(uuid "f2fc166d-899a-41a9-abae-56586dc21896")
+		)
+		(pin "27"
+			(uuid "c6febbbe-113a-4567-8e6d-ebbae0da47ab")
+		)
+		(pin "10"
+			(uuid "a7cbb622-8859-4522-a825-de373525dcd6")
+		)
+		(pin "33"
+			(uuid "c8f3ae62-28b8-41e2-a5b6-644eb8ec94a4")
+		)
+		(pin "11"
+			(uuid "7c85fd49-6db2-4872-9f9f-4a3694178aaf")
+		)
+		(pin "26"
+			(uuid "6e5c3ae7-a8b6-4949-a5d4-fc8c75678b18")
+		)
+		(pin "21"
+			(uuid "29e28c9d-b377-4b87-80b3-233f06da0d49")
+		)
+		(pin "40"
+			(uuid "4d89ade8-ca0d-49a7-b97b-3d33e6bc2ea3")
+		)
+		(pin "42"
+			(uuid "48e0f056-11f3-49b4-b538-93a32469196c")
+		)
+		(pin "43"
+			(uuid "88b09dbb-6e69-4ad0-be81-7d7a3f118e2b")
+		)
+		(pin "48"
+			(uuid "05b15f15-a4d1-4401-b0b8-fb156481b6cc")
+		)
+		(pin "46"
+			(uuid "9c225aa0-9857-444b-bb9d-3ac60fa17dc3")
+		)
+		(pin "45"
+			(uuid "11c47327-9350-4075-97ca-cddb78943ef4")
+		)
+		(pin "41"
+			(uuid "bdfdc9c8-dd86-45a2-9fb4-7b679e294396")
+		)
+		(pin "47"
+			(uuid "ab53da0f-2547-4278-95e5-c838c4bc8c94")
+		)
+		(pin "44"
+			(uuid "089846d9-e15b-4602-a8ec-6a90fba6465d")
+		)
+		(instances
+			(project "stm32board"
+				(path "/cdedab99-e3bf-426a-a0d4-2dc30bc7c928"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 124.46 60.96 0)
 		(unit 1)
@@ -8384,227 +8605,6 @@
 			(project "stm32board"
 				(path "/cdedab99-e3bf-426a-a0d4-2dc30bc7c928"
 					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MCU_ST_STM32G4:STM32G431C8Tx")
-		(at 152.4 99.06 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6bb07346-7f69-40f6-81c2-4b15ae932339")
-		(property "Reference" "U1"
-			(at 157.0833 139.7 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "STM32G431C8Tx"
-			(at 157.0833 142.24 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_QFP:LQFP-48_7x7mm_P0.5mm"
-			(at 137.16 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32g431c8.pdf"
-			(at 152.4 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 64KB flash, 32KB RAM, 170 MHz, 1.71-3.6V, 38 GPIO, LQFP48"
-			(at 152.4 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "de8b48df-de01-4ad0-bb42-f295c0462549")
-		)
-		(pin "4"
-			(uuid "c7a71357-caae-425a-94bf-730bde274f6e")
-		)
-		(pin "3"
-			(uuid "ac4c6313-40c3-4ac1-b9de-3908881c4bf8")
-		)
-		(pin "1"
-			(uuid "9dd37e9d-1135-450b-a158-fc1b0f06d535")
-		)
-		(pin "35"
-			(uuid "d5027a25-b083-4d3b-937b-a9e865a00530")
-		)
-		(pin "21"
-			(uuid "7755c2a8-d207-44fa-944c-af62ea7b5a5d")
-		)
-		(pin "5"
-			(uuid "62df3661-9991-409c-864d-208dab8b0545")
-		)
-		(pin "24"
-			(uuid "43bb5b1d-cbf5-42d2-b03b-a78b4b8dd5ec")
-		)
-		(pin "25"
-			(uuid "4ed9143a-3607-4753-8854-b3acc90c6674")
-		)
-		(pin "33"
-			(uuid "69debb1b-f8a3-4114-8d65-d275aae6e150")
-		)
-		(pin "30"
-			(uuid "5f806757-074e-4cba-b83e-a1582399edea")
-		)
-		(pin "6"
-			(uuid "1cc098b7-57e1-4531-92cd-71c86aba7e8c")
-		)
-		(pin "32"
-			(uuid "3f214852-7907-4cc8-9b9e-76dc62088d96")
-		)
-		(pin "31"
-			(uuid "2e0874cb-66cb-4e09-aae9-81527d06b83f")
-		)
-		(pin "17"
-			(uuid "1561af94-a293-4f44-8d01-0973d26bac3c")
-		)
-		(pin "15"
-			(uuid "ef0d3f26-61e4-46ca-8c3e-e1a23597b029")
-		)
-		(pin "9"
-			(uuid "3b74d8da-3b05-4330-8a66-6fb0619a873d")
-		)
-		(pin "18"
-			(uuid "042b1ad0-a3b8-450f-8b41-014dcd79e561")
-		)
-		(pin "20"
-			(uuid "caa710a0-b6e1-4102-bfe8-48d7d805f11a")
-		)
-		(pin "22"
-			(uuid "5aed8f73-88c7-417f-ad26-674229107906")
-		)
-		(pin "28"
-			(uuid "4f29bd88-215d-4f20-abf8-ab6f23935131")
-		)
-		(pin "27"
-			(uuid "eb8a05d7-7dde-456a-baf8-746fa3321217")
-		)
-		(pin "23"
-			(uuid "58888bfa-233b-40c2-b018-19a7c01d5221")
-		)
-		(pin "14"
-			(uuid "1b0592d4-26ca-4768-8c4b-ad997e7882f9")
-		)
-		(pin "26"
-			(uuid "e7f25e37-7256-49e1-9c74-f972a136e95c")
-		)
-		(pin "29"
-			(uuid "40193612-5a3b-425e-9dfd-80c78cc22c9e")
-		)
-		(pin "7"
-			(uuid "7de777a4-39eb-4751-8639-143aba0717d0")
-		)
-		(pin "8"
-			(uuid "914c3335-4305-4fb7-a427-1be38349960f")
-		)
-		(pin "34"
-			(uuid "d7d0dac2-d3cb-48e2-b0cf-8d89a946775f")
-		)
-		(pin "13"
-			(uuid "37597d01-010b-420e-88c7-263f4df02c95")
-		)
-		(pin "12"
-			(uuid "b1f6c97c-f87f-45b6-8eac-30cf03ebec12")
-		)
-		(pin "16"
-			(uuid "2f4bd121-0735-4882-8c83-3e926445295a")
-		)
-		(pin "10"
-			(uuid "6aa7a729-dc58-4e7f-b119-8ebf25ab598a")
-		)
-		(pin "36"
-			(uuid "dce9b08b-1eb6-433d-9572-8a39dd19e286")
-		)
-		(pin "11"
-			(uuid "a0e97f64-6dc5-459a-bbac-93a91c3a5de9")
-		)
-		(pin "19"
-			(uuid "efb14311-35d4-40ff-bee6-1053a40cdd36")
-		)
-		(pin "44"
-			(uuid "48e45e3e-67d6-4824-bccf-173590b16ac7")
-		)
-		(pin "41"
-			(uuid "297551cf-93d1-4ea0-bd1f-267006b566e9")
-		)
-		(pin "43"
-			(uuid "80e813a6-87ea-4079-928f-d0e5fd53bbce")
-		)
-		(pin "40"
-			(uuid "90e531cb-cb5f-4f6d-9036-2bfd41c81e26")
-		)
-		(pin "47"
-			(uuid "a9a4d9de-c010-46de-a814-c7d2517420f9")
-		)
-		(pin "37"
-			(uuid "5069dece-9ff9-40dc-ae1a-8017a378c848")
-		)
-		(pin "39"
-			(uuid "74132532-84f3-438c-b251-8fee87a566c9")
-		)
-		(pin "48"
-			(uuid "85136190-cc5c-4996-bafc-8b73f106e3f1")
-		)
-		(pin "45"
-			(uuid "ad115dcf-94a5-415f-bc2b-98f0f779c573")
-		)
-		(pin "46"
-			(uuid "517ab915-cf2f-4e73-8ca8-567c2ad4fba3")
-		)
-		(pin "38"
-			(uuid "54b1e812-d772-437d-a129-d07b0a6ddb7d")
-		)
-		(pin "42"
-			(uuid "1a78e132-3be7-4f17-9604-aa3c2ee9faa3")
-		)
-		(instances
-			(project "stm32board"
-				(path "/cdedab99-e3bf-426a-a0d4-2dc30bc7c928"
-					(reference "U1")
 					(unit 1)
 				)
 			)
